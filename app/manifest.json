@@ -1,0 +1,27 @@
+{
+    "name": "Photo Editor by Aviary",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Edit all of your photos on the web.",
+    "icons": {
+        "16": "images/icon-16.png",
+        "128": "images/icon-128.png"
+    },
+    "default_locale": "en",
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ]
+    },
+    "permissions": [
+        "tabs", "http://*/*", "https://*/*",
+        "contextMenus"
+    ],
+    "web_accessible_resources": [
+        "html/*.html",
+        "scripts/*.js",
+        "styles/*.css",
+        "aviary/*"
+    ]
+}
+

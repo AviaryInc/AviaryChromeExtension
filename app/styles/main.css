@@ -1,0 +1,287 @@
+#avpw_editor_iframe {
+	position: fixed;
+	z-index: 999999999999999999999999999;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	margin: 0 !important;
+}
+
+
+/* output of feather mods for feather */
+
+
+/* Mixins.less
+ * Snippets of reusable CSS to develop faster and keep code readable
+ * ----------------------------------------------------------------- */
+.avpw_is_fullscreen #avpw_controls {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  min-width: 650px;
+}
+#avpw_zoom_mode_text {
+  color: white;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-top: 26px;
+  font-family: Helvetica;
+  font-weight: 100;
+}
+.avpw .avpw_mode_warning {
+  font-size: 25px;
+  font-weight: 100;
+}
+#avpw_tool_content_header .avpw_label {
+  cursor: default;
+}
+#avpw_zoom_mode_overlay {
+  top: -158px;
+}
+.avpw_label {
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.avpw_crop_custom_control .avpw_number_input {
+  float: left;
+  clear: none;
+}
+.avpw_crop_lock_group {
+  width: 100%;
+  margin-left: 0px;
+}
+#avpw_crop_custom_lock_dims {
+  width: 20px;
+  float: left;
+  margin-top: 1px;
+}
+.avpw .miniColors-selector {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  top: 3px;
+  left: 5px;
+}
+.avpw_color_picker_preview {
+  height: 13px;
+  display: none;
+}
+.avpw_dropdown_popup {
+  border-radius: 3px;
+  border: none;
+}
+.avpw_dropdown_popup_list_item {
+  border: none;
+  background-color: #FFFFFF;
+  height: 38px;
+}
+.avpw_dropdown_popup_inner {
+  border: none;
+}
+#avpw_font_popup {
+  margin-top: -12px;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+}
+#avpw_zoom_container.avpw_zoom_open {
+  background: rgba(255, 255, 255, 0.4);
+}
+#avpw_zoom_container .avpw_slider_bookend {
+  font-size: 18px;
+}
+.avpw_crop_handle_tr {
+  cursor: nesw-resize;
+}
+.avpw_crop_handle_tl {
+  cursor: nwse-resize;
+}
+.avpw_crop_handle_br {
+  cursor: nwse-resize;
+}
+.avpw_crop_handle_bl {
+  cursor: nesw-resize;
+}
+.avpw_color_picker_dropdown_popup {
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+  height: 148px;
+}
+.avpw_dropdown_tail {
+  width: 30px;
+  height: 30px;
+  top: -23px;
+  margin-left: -29px;
+}
+.avpw .avpw_button:not(.avpw_primary_button):hover {
+  background: #bebebe;
+}
+.avpw_inset_button_label {
+  cursor: pointer;
+  left: 2px;
+}
+.avpw_brush_set {
+  margin-left: 0px;
+}
+.avpw_inset_button_label_mini_5 {
+  width: 172px;
+}
+.avpw .avpw_tool_cutout_centered_spot_tool {
+  width: 292px;
+}
+.avpw .avpw_tool_cutout_centered_spot_tool .avpw_inset_button_label_mini_5 {
+  width: 290px;
+}
+.avpw_inset_color_widget .avpw_preset_color_image {
+  border: none;
+  -webkit-box-shadow: 0px 0px 1px 1px #dfdfdf;
+  -moz-box-shadow: 0px 0px 1px 1px #dfdfdf;
+  box-shadow: 0px 0px 1px 1px #dfdfdf;
+}
+.avpw_tool_cutout_centered_drawing {
+  margin-left: -374px;
+}
+.avpw_tool_icon .avpw_icon_label {
+  padding-left: 2px;
+}
+#avpw_controlpanel_focus .avpw_inset_button_label {
+  left: 0px;
+}
+.avpw_selection_overlay_close_button {
+  border: none;
+  background: none;
+}
+.avpw_resize_constrain {
+  height: 50px;
+}
+.avpw_filter_icon {
+  margin: 12px 16px 0 0;
+}
+.avpw_tool_cutout_centered_resize .avpw_number_input {
+  padding: 0px;
+  height: 37px;
+  width: 100px;
+  font-size: 14px;
+  line-height: 37px;
+}
+.avpw_resize_form_block {
+  width: 100px;
+}
+.avpw_resize_constrain {
+  width: 55px;
+  height: 39px;
+}
+.avpw_resize_form_block .avpw_label {
+  width: 102px;
+}
+.avpw_tool_cutout_centered_resize {
+  width: 258px;
+  margin-left: -129px;
+}
+#avpw_font_browser {
+  border: 1px solid #dfdfdf;
+}
+#avpw_font_browser .avpw_dropdown_icon {
+  border: none;
+}
+#avpw_font_browser .avpw_dropdown_icon_inner {
+  margin-top: -2px;
+  margin-left: -4px;
+}
+#avpw_constrain_prop:before {
+  position: absolute;
+  content: '';
+  left: -2px;
+  bottom: -2px;
+  top: -2px;
+  right: -2px;
+  background: #d3d3d3;
+}
+.avpw_inset_button_label {
+  pointer-events: none;
+}
+#avpw_brush_preview_container {
+  background: rgba(0, 0, 0, 0.75);
+  border: none;
+}
+.avpw_tiltshift_circle .avpw_tiltshift_shape,
+.avpw_tiltshift_rectangle .avpw_tiltshift_shape {
+  border: 1px solid white;
+}
+.avpw_tool_cutout_centered_drawing .avpw_inset_color_widget,
+.avpw_tool_cutout_centered_drawing .avpw_inset_button_group:not(.avpw_brush_set) {
+  width: 71px;
+}
+#avpw_textwithfont_addtext .avpw_inset_button:before {
+  display: block;
+}
+.zoom-in-photo {
+  position: fixed;
+  z-index: 99999999;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 0;
+  max-height: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -ms-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  -webkit-transition: [all, 0.5s, ease-in];
+  -moz-transition: [all, 0.5s, ease-in];
+  -ms-transition: [all, 0.5s, ease-in];
+  -o-transition: [all, 0.5s, ease-in];
+  transition: all 0.5s ease-in;
+  -webkit-transform-origin: 0% 0% 50%;
+  -moz-transform-origin: 0% 0% 50%;
+  -ms-transform-origin: 0% 0% 50%;
+  -o-transform-origin: 0% 0% 50%;
+  transform-origin: 0% 0% 50%;
+}
+.zoom-in-photo:before,
+.zoom-in-photo:after {
+  display: none;
+}
+#avpw_controls {
+  -webkit-transition: [opacity, 0.2s, ease-in-out];
+  -moz-transition: [opacity, 0.2s, ease-in-out];
+  -ms-transition: [opacity, 0.2s, ease-in-out];
+  -o-transition: [opacity, 0.2s, ease-in-out];
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+}
+.is_zooming_image {
+  opacity: 0 !important;
+}
+#avpw_temp_loading_image {
+  display: none;
+}
+#avpw_controls {
+  -webkit-transition: [opacity, 0.2s, ease];
+  -moz-transition: [opacity, 0.2s, ease];
+  -ms-transition: [opacity, 0.2s, ease];
+  -o-transition: [opacity, 0.2s, ease];
+  transition: opacity 0.2s ease;
+}
+#avpw_controls.faded_controls {
+  filter: alpha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+}
+#avpw_size_indicator {
+  display: none;
+}
