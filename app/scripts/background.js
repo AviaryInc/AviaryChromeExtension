@@ -1,13 +1,9 @@
 'use strict';
 
-chrome.runtime.onInstalled.addListener(function(details) {
-    //
-});
-
 chrome.contextMenus.create({
-    title: "Edit this photo with Aviary",
-    contexts:["image"],
-    onclick: function(data, tab) {
+    title: 'Edit this photo with Aviary',
+    contexts:['image'],
+    onclick: function(data) {
         var windowSettings = {
             'url': '../index.html#'+encodeURIComponent(data.srcUrl),
             'width': 1200,
